@@ -1,1 +1,1 @@
-# Basci-Video-and-Card-Game-Web-without-any-frame-
+# For some functions and requirments, please read pdf document
