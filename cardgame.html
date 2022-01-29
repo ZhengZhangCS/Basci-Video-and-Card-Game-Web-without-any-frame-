@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is just a game</title>
+    <link href="cardgame.css"
+          rel="stylesheet" />
+</head>
+<body>
+<header id="NavHeader">
+    <a href="index.html"><div id="mediaPage">VIDEO</div></a>
+    <div id="gamePage">CARD GAME</div>
+</header>
+<div id="contend">
+    <div id="CountArea">
+        <p id="ct">click times: 0</p>
+        <p id="match">match times: 0</p>
+<!--        <label>click times:<p id="ct">0</p></label>-->
+<!--        <label>match times:<p id="match">0</p></label>-->
+        <p>Matching Progress:</p>
+        <div id="Progress">
+
+            <div id="calBar"></div>
+        </div>
+    </div>
+    <div id="DuelArea">
+
+        <img src="cardback.jpg" id="zero">
+        <img src="cardback.jpg" id="one">
+        <img src="cardback.jpg" id="two">
+        <img src="cardback.jpg" id="three">
+        <img src="cardback.jpg" id="four">
+        <br>
+        <img src="cardback.jpg" id="five">
+        <img src="cardback.jpg" id="six">
+        <img src="cardback.jpg" id="seven">
+        <img src="cardback.jpg" id="eight">
+        <img src="cardback.jpg" id="nine">
+
+    </div>
+
+    <div id="refresh">
+        <form>
+            <input type="button" value="Restart" onclick="restart(0)">
+            <input type="button" value="Reshuffle" onclick="restart(1)">
+        </form>
+    </div>
+
+    <script src="cardgame.js"></script>
+</div>
+<footer>
+    XJTLU<br>
+    This Is the CW1 of Social Web Programming
+</footer>
+</body>
+
+</html>

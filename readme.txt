@@ -1,0 +1,1 @@
+The absolute paths(URL) of the media files (images and videos) are in this folder's root directory.

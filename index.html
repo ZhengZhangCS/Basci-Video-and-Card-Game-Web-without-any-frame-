@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Web Programming Coursework1</title>
+    <link href="main.css"
+          rel="stylesheet" />
+</head>
+<body>
+    <header id="NavHeader">
+        <div id="mediaPage">VIDEO</div>
+        <a href="cardgame.html"><div id="gamePage">CARD GAME</div></a>
+    </header>
+
+<!--    <nav class="BLUENAV" >-->
+<!--    hello-->
+<!--    </nav>-->
+    <div id="contend">
+
+    <div id="VideoControl">
+        <div id="VideoDisplay">
+             <video   muted
+            poster="fastandfurious-poster.jpg" height="500" width=60% id="PV">
+             <source src="" type="video/mp4">
+
+
+             </video>
+            <div id="controlLine">
+                 <div id="progress">
+                    <div id="bar"></div>
+                 </div>
+                <div id="muteBtn"><img id="mute" src="mute.png"></div>
+            </div>
+
+
+            <div id="status">
+                <div  class="status_p" id="volume">VOLUME:10%</div>
+                <div  class="status_p" id="playName">Fast and furious</div>
+                <div class="status_p" id="time">TIME: 00:00/00:00</div>
+            </div>
+            <form>
+                <input type="button" value="play" onclick="video_pause()" id="play_btn">
+                <input type="button" value="volume up" onclick="volumeUp()">
+                <input type="button" value="volume down" onclick="volumeDown()">
+                <input id="playall" type="button" value="play all" onclick="playAll()">
+                <input type="button" value="full screen" onclick="fullscreen()">
+            </form>
+            <img src="" id="previous" alt="previous">
+            <img src="" id="next" alt="next">
+         </div>
+
+      <div id="List">
+
+      </div>
+</div>
+
+
+
+
+</div>
+
+<footer>
+XJTLU<br>
+    This Is the CW1 of Social Web Programming
+</footer>
+
+<script src="mainjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+body{
+    margin: 0 0;
+    margin-outside:0 ;
+	background-color:dimgrey;
+}
+header{
+	background-color: lightpink;
+	margin: 0;
+	height: 80px;
+}
+
+#contend{
+	margin: 0 0;
+}
+
+#mediaPage{
+	background-color:lightblue;
+	float: left;
+	box-shadow:inset 2px 2px 5px #000;
+	width: 100px;
+
+	border-right:solid medium black ;
+	text-align: center;
+	font-family: fantasy ;
+	height: 40px;
+	padding:20px 0;
+	font-size: 35px;
+}
+
+#mediaPage:hover{
+	background-color : rgba(255,255,255,0.5);
+}
+
+#gamePage{
+
+	float: left;
+	width: 100px;
+
+	box-shadow:inset 2px 2px 5px #000;
+
+	text-align: center;
+	height: 40px;
+	font-family: fantasy;
+	padding:20px 0;
+	font-size: 25px;
+}
+
+video{
+	background-color: black;
+	padding: 5px;
+}
+
+
+#VideoControl{
+	margin: 10px 150px;
+	background-color : rgba(179,179,179,0.8);
+	overflow: hidden;
+	height: 700px;
+}
+#VideoDisplay{
+	float: left;
+	width: 70%;
+	height: 400px;
+
+}
+
+#List {
+	overflow-y: scroll;
+	width: 30%;
+	float: right;
+	height: 510px;
+
+}
+
+.ListClass {
+	border: medium solid violet;
+	list-style-type: none;
+	width: 100%;
+	height: 4cm;
+	background-color: whitesmoke;
+}
+.posterClass{
+	height:4cm;
+	width:2.5cm;
+	float: left;
+}
+#PV {
+	width: 100%;
+}
+
+.time{
+	text-align: center;
+}
+
+#seekbar{
+	overflow: hidden;
+	transition:all .2s ease 0s;
+}
+
+form{
+	text-align: center;
+}
+
+#controlLine{
+	border-radius: 10px;
+	/*overflow: hidden;*/
+	height:31px;
+	width:980.37px;
+	background-color : rgba(179,179,179,0.5);
+}
+#progress{
+	border: black solid 1px;
+	border-radius: 10px;
+	float:left;
+	width:90%;
+}
+#muteBtn{
+	float: right;
+}
+#muteBtn img{
+	width: 30px;
+	height:30px
+}
+#bar{
+	background-color: violet;
+	height: 20px;
+	width: 0;
+	border-radius: 10px;
+}
+
+#next{
+	float: right;
+	width: 1.5cm;
+	height: 2cm;
+	border: orangered solid 1px;
+}
+
+#previous{
+	float:left;
+	width:1.5cm;
+	height:2cm;
+	border: orangered solid 1px;
+}
+
+#status{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.status_p{
+	height: 40px;
+
+	margin:0 0;
+
+}
+
+#volume{
+	float: left;
+	margin: 0 0;
+}
+#time{
+	float: right;
+	margin: 0 0;
+}
+#playName{
+	font-family: fantasy;
+
+	font-weight: bold;
+}
+
+footer{
+	background-color: #e9e9e9;
+	height: 50px;
+	text-align: center;
+}
